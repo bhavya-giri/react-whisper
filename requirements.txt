@@ -1,4 +1,0 @@
-fastapi
-torch
-transformers
-uvicorn

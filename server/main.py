@@ -2,6 +2,8 @@ import os
 from transformers import pipeline
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
+
 import httpx
 import torch
 
@@ -31,7 +33,13 @@ def transcribe_audio(audio_url):
     return transcript
 
 app = FastAPI()
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 @app.post("/transcribe/")
 async def transcribe(audio_url: str):
     try:
