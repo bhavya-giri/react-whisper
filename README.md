@@ -13,6 +13,10 @@ cd react-whisper/server
 ```
 
 ```
+pip install requirements.txt
+```
+
+```
 python -m uvicorn main:app --reload
 ```
 
