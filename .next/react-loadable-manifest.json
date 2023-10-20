@@ -1,0 +1,14 @@
+{
+  "../../node_modules/react-audio-voice-recorder/dist/react-audio-voice-recorder.es.js -> ./index-1c988149.js": {
+    "id": "../../node_modules/react-audio-voice-recorder/dist/react-audio-voice-recorder.es.js -> ./index-1c988149.js",
+    "files": [
+      "static/chunks/node_modules_react-audio-voice-recorder_dist_index-1c988149_js.js"
+    ]
+  },
+  "../../node_modules/react-audio-voice-recorder/dist/react-audio-voice-recorder.es.js -> ./react-audio-visualize.es-69216c73.js": {
+    "id": "../../node_modules/react-audio-voice-recorder/dist/react-audio-voice-recorder.es.js -> ./react-audio-visualize.es-69216c73.js",
+    "files": [
+      "static/chunks/node_modules_react-audio-voice-recorder_dist_react-audio-visualize_es-69216c73_js.js"
+    ]
+  }
+}
